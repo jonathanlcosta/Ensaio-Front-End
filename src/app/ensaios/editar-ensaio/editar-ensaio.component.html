@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h2 class="text-center mb-5">Editar Ensaio</h2>
+      <form>
+        <div class="form-group">
+          <label for="lider">Líder do grupo</label>
+          <input type="text" class="form-control" id="ensaioLider" name="lider" placeholder="Insira o Líder do grupo" [(ngModel)]="ensaio.lider" >
+        </div>
+        <div class="form-group">
+          <label for="cancoes">Quais canções serão ensaiadas?</label>
+          <textarea class="form-control" id="ensaioCancoes" rows="3" name="cancoes" placeholder="Insira as canções que serão ensaidas" [(ngModel)]="ensaio.cancoes"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="integrantes">Integrantes do grupo:</label>
+            <textarea class="form-control" id="ensaioIntegrantes" rows="3" name="integrantes" placeholder="Insira os integrantes do Ensaio"[(ngModel)]="ensaio.integrantes"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="horario">Horário do Ensaio</label>
+            <input type="time" class="form-control" id="ensaioHorario" name="horario" [(ngModel)]="ensaio.horario">
+          </div>          
+        <div class="form-group">
+          <label for="data">Data do Ensaio</label>
+          <input type="date" class="form-control" id="ensaioData" name="data" [(ngModel)]="ensaio.data">
+        </div>
+        <button type="submit" class="btn btn-primary" (click)="editarEnsaio()">Salvar</button>
+        <button type="button" class="btn btn-secondary" (click)="cancelar()">Cancelar</button>
+      </form>
+    </div>

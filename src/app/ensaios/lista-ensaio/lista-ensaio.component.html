@@ -1,0 +1,32 @@
+<body>
+  <div class="container mt-5">
+    <h2 class="text-center mb-5">Lista de Ensaios</h2>
+    <table class="table" *ngFor="let ensaio of ensaios">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Líder do grupo</th>
+          <th scope="col">Canções</th>
+          <th scope="col">Integrantes</th>
+          <th scope="col">Data</th>
+          <th scope="col">Horário do Ensaio</th>
+          <th scope="col">Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row" >{{ensaio.id}}</th>
+          <td>{{ensaio.lider}}</td>
+          <td>{{ensaio.cancoes}}</td>
+          <td>{{ensaio.integrantes}}</td>
+          <td>{{ensaio.data}}</td>
+          <td>{{ensaio.horario}}</td>
+          <td>
+            <a href="#" class="btn btn-secondary" routerLink="/editarEnsaio/{{ensaio.id}}">Editar</a>
+            <a href="#" class="btn btn-danger" routerLink="/ensaios/excluirEnsaio/{{ensaio.id}}">Excluir</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>

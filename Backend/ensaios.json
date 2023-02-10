@@ -1,0 +1,83 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "lider": "Rafael",
+      "cancoes": "Maravilhado, Canção do apocalipse",
+      "integrantes": "Jonathan, Samuel",
+      "data": "12/12/2023",
+      "horario": 19
+    },
+    {
+      "lider": "",
+      "cancoes": "",
+      "integrantes": "",
+      "horario": null,
+      "data": null,
+      "id": 2
+    },
+    {
+      "lider": "",
+      "cancoes": "",
+      "integrantes": "",
+      "horario": 0,
+      "data": "",
+      "id": 3
+    },
+    {
+      "lider": "",
+      "cancoes": "",
+      "integrantes": "",
+      "horario": 0,
+      "data": "",
+      "id": 4
+    },
+    {
+      "lider": "",
+      "cancoes": "",
+      "integrantes": "",
+      "horario": 0,
+      "data": "",
+      "id": 5
+    },
+    {
+      "lider": "",
+      "cancoes": "",
+      "integrantes": "",
+      "horario": null,
+      "data": "",
+      "id": 6
+    },
+    {
+      "lider": "aaaaa",
+      "cancoes": "",
+      "integrantes": "",
+      "horario": null,
+      "data": "",
+      "id": 7
+    },
+    {
+      "lider": "aaaaaaa",
+      "cancoes": "",
+      "integrantes": "",
+      "horario": null,
+      "data": "",
+      "id": 8
+    },
+    {
+      "lider": "Jonathan",
+      "cancoes": "Lindo és",
+      "integrantes": "Samuel",
+      "horario": "12:22",
+      "data": "2222-12-12",
+      "id": 9
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ]
+}
